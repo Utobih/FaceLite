@@ -17,12 +17,14 @@ Para executa-lo no windows, de forma rapida, depois de instalar as dependencias 
 
 No linux, você pode criar um shell script que inicie ele, logo criar um .desktop e coloca-lo na Área de trabalho, então: obs; utilize seu editor favorito, no meu caso é o nano então:
 > sudo nano /usr/bin/flite
+
 Em seguida vai abrir seu editor, dai você coloca o codigo:
 > cd "local onde baixou o script"
 > ./FaceLite.py
   
 Agora para criar o .desktop devemos ir para:
 > cd  /usr/share/applications
+
 logo criamos um arquivo .desktop:
 > sudo touch FaceLite.desktop; sudo nano FaceLite.desktop
 
