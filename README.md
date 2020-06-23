@@ -14,3 +14,24 @@ Os pacotes que utilizei no programa são PyQt5, sys, e os, primeiro de tudo, dev
 
 Para executa-lo no windows, de forma rapida, depois de instalar as dependencias e o script, clique com botão direito no arquivo "FaceLite.py" e vai em Enviar para>Área de trabalho, assim vai criar um atalho, logo va nas propriedades do atalho, na aba atalho>destino, vá até o inicio do texto e coloque "python", em seguida o local do script, no meu caso ficou assim:
 > python.exe "C:\Users\w7\Python\FaceLite/FaceLite.py"
+
+No linux, você pode criar um shell script que inicie ele, logo criar um .desktop e coloca-lo na Área de trabalho, então: obs; utilize seu editor favorito, no meu caso é o nano então:
+> sudo nano /usr/bin/flite
+Em seguida vai abrir seu editor, dai você coloca o codigo:
+> cd "local onde baixou o script"
+> ./FaceLite.py
+  
+Agora para criar o .desktop devemos ir para:
+> cd  /usr/share/applications
+logo criamos um arquivo .desktop:
+> sudo touch FaceLite.desktop; sudo nano FaceLite.desktop
+
+Em seguida colocamos as infos do programa.
+    [Desktop Entry]
+    Type=Application
+    Encoding=UTF-8
+    Name=Nome do aplicativo de exemplo
+    Comment=Um aplicativo de exemplo
+    Exec=aplicativo
+    Icon=aplicativo.png
+    Terminal=false
