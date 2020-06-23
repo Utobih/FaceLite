@@ -30,9 +30,9 @@ Em seguida colocamos as infos do programa.
 
 >[Desktop Entry]
 >Type=Application
->    Encoding=UTF-8
->    Name=Nome do aplicativo de exemplo
->    Comment=Um aplicativo de exemplo
->    Exec=aplicativo
->    Icon=aplicativo.png
-    Terminal=false
+>Encoding=UTF-8
+>Name=FaceLite
+>Comment=" "
+>Exec=flite
+>Icon=/home/Downloads/FaceLite/icons/face.png
+>Terminal=false
