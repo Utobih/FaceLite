@@ -25,8 +25,8 @@ Em seguida vai abrir seu editor, dai você coloca o codigo:
 Agora para criar o .desktop devemos ir para:
 > cd  /usr/share/applications
 
-logo criamos um arquivo .desktop:
-> sudo touch FaceLite.desktop; sudo nano FaceLite.desktop
+logo criamos e editamos um arquivo .desktop:
+> sudo nano FaceLite.desktop
 
 Em seguida colocamos as infos do programa.
 
@@ -45,3 +45,7 @@ Em seguida colocamos as infos do programa.
 >Icon=/home/user/Downloads/FaceLite/icons/face.png
 
 >Terminal=false
+
+>Categories=Network;
+
+Assim que salvar o arquivo basta ir no seu menu na categoria Internet que vai encontra-lo lá. OBS: na parte Icon, eu coloquei um exemplo, você deve por o local do seu download.
