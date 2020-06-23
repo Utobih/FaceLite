@@ -20,6 +20,7 @@ No linux, você pode criar um shell script que inicie ele, logo criar um .deskto
 
 Em seguida vai abrir seu editor, dai você coloca o codigo:
 > cd "local onde baixou o script"
+
 > ./FaceLite.py
   
 Agora para criar o .desktop devemos ir para:
