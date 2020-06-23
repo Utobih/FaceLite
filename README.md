@@ -27,11 +27,12 @@ logo criamos um arquivo .desktop:
 > sudo touch FaceLite.desktop; sudo nano FaceLite.desktop
 
 Em seguida colocamos as infos do programa.
-    [Desktop Entry]
-    Type=Application
-    Encoding=UTF-8
-    Name=Nome do aplicativo de exemplo
-    Comment=Um aplicativo de exemplo
-    Exec=aplicativo
-    Icon=aplicativo.png
+
+>[Desktop Entry]
+>Type=Application
+>    Encoding=UTF-8
+>    Name=Nome do aplicativo de exemplo
+>    Comment=Um aplicativo de exemplo
+>    Exec=aplicativo
+>    Icon=aplicativo.png
     Terminal=false
