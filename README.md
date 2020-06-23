@@ -29,10 +29,17 @@ logo criamos um arquivo .desktop:
 Em seguida colocamos as infos do programa.
 
 >[Desktop Entry]
+
 >Type=Application
+
 >Encoding=UTF-8
+
 >Name=FaceLite
+
 >Comment=" "
+
 >Exec=flite
->Icon=/home/Downloads/FaceLite/icons/face.png
+
+>Icon=/home/user/Downloads/FaceLite/icons/face.png
+
 >Terminal=false
